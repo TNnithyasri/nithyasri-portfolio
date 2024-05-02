@@ -4,16 +4,22 @@
         <title>
               Contact
         </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <div>
-    <h1>Nithyasri</h1>
-    <p>Web Developer<p>
-    <a href="index.html">home</a>
-    </div>
-    <div>
-        <table>
+    <body>                                                                                                                  
+        <div class="container">
+    
+        <div class="contact-form__input">
+          <h1>Nithyasri</h1>
+          <p>Web Developer<p>
+         <a class="contact-form__Home" href="index.html">Home</a>
+        </div>
+    <div >
+         <table class="contact-form__textarea">
             <tr>
                 <td>Name:</td>
                 <td><input placeholder="Enter Your Name"></td>
@@ -23,17 +29,19 @@
                 <td><input placeholder="Enter Your Email"></td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td><textarea placeholder="Enter Your Address"></textarea></td>
+                <td>Message:</td>
+                <td><textarea placeholder="Message"></textarea></td>
             </tr>
             
-        </table>
+         </table>
+        <a class="contact-form__submit">submit</a>
     </div>
-    <div>
+    <div class="contact-form__soc">
         <p>Social media
             <a href="https://www.instagram.com/nithyasri_bike_crazy/">Instagram</a>
         </p>
         <p>  @nithyasri_bike_crazy</p>
+    </div>
     </div>
     </body>
 </html>
